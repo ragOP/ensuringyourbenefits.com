@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html><head>
   <meta charset="utf-8">
 
@@ -45,8 +46,7 @@
 };
 </script>
 
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A500%2C600">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik%3A400%2C500">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days%20One%3A400%2C500%2C700">
@@ -80,21 +80,6 @@
 <header style="display: none;" class="w-full text-xs text-center flex justify-center border-b shadow-lg">
 A non-government entity powered by Essential Property Solutions, a health insurance agency.
 </header>
-<!-- <header class="bg-[#27479e] py-4  flex-row items-center text-center justify-end px-4 lg:px-40 py-4 gap-2 text-white text-[13px]  flex  ">
-<div class="text-xl text-white">
-  Call 555-555-555 (TTY 555)
-</div>
-
-</header> -->
-
-<!-- <header class="bg-[#27479e] py-4 flex items-center justify-between px-4 lg:px-40 gap-2 text-white text-[13px]">
-<div class="flex items-center">
-<img src="ens.png" alt="Main Logo" class="h-8 w-auto mr-4">
-<div class="text-m">
-  Call 555-555-555 (TTY 555)
-</div>
-</div>
-</header> -->
 
 <header class="bg-[#27479e] py-4 flex items-center justify-between px-4 lg:px-40 text-white text-[13px]">
 <div class="flex flex-col sm:flex-row items-start sm:items-center">
@@ -108,8 +93,6 @@ A non-government entity powered by Essential Property Solutions, a health insura
 <div class="text-m mt-2">
   CALL <a href="tel:123-456-7890">123-456-7891 | TTY 711</a>
 </div>
-
-
 </header>
 
 <header class=" justify-end  text-white text-[17px]  flex  ">
@@ -138,9 +121,11 @@ A non-government entity powered by Essential Property Solutions, a health insura
     
       <div class="lander-item relative inline-block h-auto w-screen max-w-full translate-y-4 transform-none whitespace-normal align-top transition duration-200 ease-in" data-chain--component-target="question">
         <div class="text-[#19329a] italic text-[0.9em] font-semibold text-center mb-[5px]" id="handleHeading">Find Out Which Medicare Advantage Plan Fits Your Needs!<br>SEP [Newly eligible for Medicare, recently moved or lost coverage?]</div>
-        <p style="text-align: center; font-size: 16px;">In order to see what additional benefits you may be eligible for, answer a few questions below and speak to a licensed insurance agent who can help you find plans that service your area.</p>
+        <p style="text-align: center; font-size: 16px;">In order to see what additional benefits you may be eligible for, answer a few questions below and speak to a licensed insurance agent who can help you find plans that service&nbsp;your&nbsp;area.</p>
         <img src="images/image.png" class="mx-auto img-responsive wow flipInX animated  max-w-[250px] my-4" style="visibility: visible; animation-name: flipInX;" id="handleImg">
-        <div class="mt-[15px] text-center text-[1.6em] font-bold leading-[1.2] text-[#2a2a2b] mb-7" id="handleQuestion">Do you live in the U.S.</div>
+        <!-- START: First visible question (USA question removed) -->
+        <div class="mt-[15px] text-center text-[1.6em] font-bold leading-[1.2] text-[#2a2a2b] mb-7" id="handleQuestion">Are you currently on Medicare parts A and B?</div>
+        <!-- END: First visible question -->
         <div class="flex items-center justify-center w-full">
         <video id="handleVid" class="hidden" src="images/test.mp4" loop="" autoplay="" muted="" playsinline="" style="width: 150px;"></video>
       </div>
@@ -229,8 +214,6 @@ A non-government entity powered by Essential Property Solutions, a health insura
         </div>
       </div>
     
-      
-    
       <div class="lander-item relative inline-block h-auto w-screen max-w-full translate-y-4 transform-none whitespace-normal align-top transition duration-200 ease-in flex flex-col hidden" data-chain--component-target="question">
         <div class="text-[#19329a] italic text-[0.9em] font-semibold text-center mb-[5px]" id="finalhead">Congratulations! You could qualify for thousands in Medicare grocery allowances.</div>
         <div class="mt-[15px] text-center text-[1.6em] font-bold leading-[1.2] text-[#2a2a2b] mb-7">Tap The Button Below To Chat With A Licensed Insurance Agent <span id="tcount"></span></div>
@@ -263,9 +246,7 @@ A non-government entity powered by Essential Property Solutions, a health insura
 
     </div>
   </div>
-<!--   <div class="text-sm text-justify">
-    (Benefits) mentioned may be part of a special supplemental program for chronicall ill members with one of the following conditions: Diabetes mellitus, Cardiovascular disorders, Chronic and disabling mental health conditions, Chronic lung disorders, Chronic heart failure. This is not a complete list of qualifying conditions. Having a qualifying condition alone does not mean you will receive the benefit(s). Other requirements may apply.
-  </div> -->
+
   <div class="text-sm text-justify"><br>We work with the following companies as an independent broker:
 This is a solicitation for insurance. [Action}, you understand that your contact information will be provided to a licensed sales agent who can enroll you into a Medicare Advantage, Prescription Drug (Part D), and Medicare Supplement Insurance plans and you agree to receive automated marketing messages via email, autodialer, text, or robocalls. Cellular charges may apply. Your consent to connect with a licensed insurance agent(s) does not impact eligibility to enroll or the provision of services. This is a click to call there should be no TCPA language </div>
 </div>
@@ -298,25 +279,11 @@ insurance company.
 <p>Enrollment in Medicare/Medicare Advantage may be limited to certain times of the year unless you qualify for a Special Enrollment Period
 
 </p>
-<p>ensureyourbenefits.com
-
-
-
-
-
-
- is not connected with or endorsed by the US government or Federal Medicare program. This website is a solicitation for insurance and Medicare Advantage, Part D or Medicare supplement insurance comparison services. Medicare supplement insurance is available to those age 65 or older enrolled in Medicare Parts A and B, and in some states to those under age 65 eligible to Medicare due to disability or end stage renal disease.
+<p>ensureyourbenefits.com is not connected with or endorsed by the US government or Federal Medicare program. This website is a solicitation for insurance and Medicare Advantage, Part D or Medicare supplement insurance comparison services. Medicare supplement insurance is available to those age 65 or older enrolled in Medicare Parts A and B, and in some states to those under age 65 eligible to Medicare due to disability or end stage renal disease.
 </p>
 <p>We do not offer every plan available in your area. Currently we represent [insert number of organizations] organizations which offer [insert number of plans] products in your area. Please contact Medicare.gov, 1–800–MEDICARE, or your local State Health Insurance Program (SHIP) to get information on all of your options.</p>
-<div id="f-name">© 2026 ensureyourbenefits.com
+<div id="f-name">© 2026 ensureyourbenefits.com</div>
 
-
-
-
-
-
-</div>
-  <!-- <p>G2 Licensed Agent : Jessica Johanna Rodriguez</p> -->
 <script>
 const handleYes = document.getElementById("handleYes");
 const handleNo = document.getElementById("handleNo");
@@ -327,78 +294,43 @@ const handleCall = document.getElementById("handleCall");
 const handleVid = document.getElementById("handleVid");
 const handleSkip = document.getElementById("handleSkip");
 const progressBar = document.querySelector('[data-chain--progress--component-target="barStatus"]');
-let count = 0;
-let progress = 0;
+
+// We removed the USA question. Start directly on the A/B question (step 2).
+let count = 1;          // already on the second step
+let progress = 33;      // show first progress segment
+handleImg.style.display = 'block';         // keep image shown on step 2
+handleSkip.style.display = "block";
+progressBar.style.width = progress + '%';
+
+function goFinal() {
+  handleQuestion.innerText = "Tap The Button Below To Chat With A Licensed Insurance Agent";
+  handleHeading.innerHTML = "Congratulations You May Eligible For Additional Benefits!";
+  handleYes.style.display = 'none';
+  handleNo.style.display = 'none';
+  handleSkip.style.display = "none";
+  handleCall.style.display = 'block';
+  handleVid.style.display = 'block';
+  progress = 66; // advance to next segment
+  progressBar.style.width = progress + '%';
+}
 
 handleYes.addEventListener("click", ()=> {
-    if (progress === 33) {
-      handleSkip.style.display = "none";
-      progress = 66;
-    }
-    if (progress === 0) {
-      progress = 33;
-      handleSkip.style.display = "block";
-    }
-    progressBar.style.width = progress + '%';
-  if(count === 0){
-    handleImg.style.display = 'none';
-    handleQuestion.innerText = "Are you currently on Medicare parts A and B?";
-    count++
-  }else{
-    handleQuestion.innerText = "Tap The Button Below To Chat With A Licensed Insurance Agent";
-    handleHeading.innerHTML = "Congratulations You May Eligible For Additional Benefits!";
-    handleYes.style.display = 'none'
-    handleNo.style.display = 'none'
-    handleCall.style.display = 'block';
-    handleVid.style.display = 'block';
-  }
-})
+  if (progress === 33) { progress = 66; handleSkip.style.display = "none"; }
+  progressBar.style.width = progress + '%';
+  if (count === 1){ goFinal(); } else { count++; }
+});
+
 handleNo.addEventListener("click", ()=> {
-  if (progress === 33) {
-    handleSkip.style.display = "none";
-      progress = 66;
-    }
-    if (progress === 0) {
-      handleSkip.style.display = "block";
-      progress = 33;
-    }
-    progressBar.style.width = progress + '%';
-  if(count === 0){
-    handleImg.style.display = 'none';
-    handleQuestion.innerText = "Are you currently on Medicare parts A and B?";
-    count++;
-  }else{
-    handleQuestion.innerText = "Tap The Button Below To Chat With A Licensed Insurance Agent";
-    handleHeading.innerHTML = "Congratulations You May Eligible For Additional Benefits!";
-    handleYes.style.display = 'none'
-    handleNo.style.display = 'none'
-    handleCall.style.display = 'block';
-    handleVid.style.display = 'block';
-  }
-})
+  if (progress === 33) { progress = 66; handleSkip.style.display = "none"; }
+  progressBar.style.width = progress + '%';
+  if (count === 1){ goFinal(); } else { count++; }
+});
+
 handleSkip.addEventListener("click", ()=> {
-  if (progress === 33) {
-    handleSkip.style.display = "none";
-      progress = 66;
-    }
-    if (progress === 0) {
-      handleSkip.style.display = "block";
-      progress = 33;
-    }
-    progressBar.style.width = progress + '%';
-  if(count === 0){
-    handleImg.style.display = 'none';
-    handleQuestion.innerText = "Are you currently on Medicare parts A and B?";
-    count++;
-  }else{
-    handleQuestion.innerText = "Tap The Button Below To Chat With A Licensed Insurance Agent";
-    handleHeading.innerHTML = "Congratulations You May Eligible For Additional Benefits!";
-    handleYes.style.display = 'none'
-    handleNo.style.display = 'none'
-    handleCall.style.display = 'block';
-    handleVid.style.display = 'block';
-  }
-})
+  if (progress === 33) { progress = 66; handleSkip.style.display = "none"; }
+  progressBar.style.width = progress + '%';
+  if (count === 1){ goFinal(); } else { count++; }
+});
 </script>
 </footer>
 </body></html>
